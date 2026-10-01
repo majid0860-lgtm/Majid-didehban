@@ -83,9 +83,9 @@ class LocationService : Service() {
 
         val client = LocationServices.getFusedLocationProviderClient(this)
         val request = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, UPDATE_INTERVAL_MS)
-            .setMinUpdateIntervalMillis(UPDATE_INTERVAL_MS)
-            .build()
-
+    .setMinUpdateIntervalMillis(UPDATE_INTERVAL_MS)
+    .setWaitForAccurateLocation(true)
+    .build()
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(result: LocationResult) {
                 val location = result.lastLocation ?: return
