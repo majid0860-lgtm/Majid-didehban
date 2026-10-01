@@ -49,4 +49,14 @@
         android:textSize="12sp"
         android:textColor="#666666" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="16dp"
+        android:text="برنامه‌نویس: مجید دیده‌بان"
+        android:textSize="13sp"
+        android:textColor="#999999" />
+
 </LinearLayout>
