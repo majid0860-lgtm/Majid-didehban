@@ -34,11 +34,19 @@
         android:inputType="phone"
         android:hint="مثلاً 09121234567" />
 
+    <CheckBox
+        android:id="@+id/checkConsent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="تایید می‌کنم این برنامه با اطلاع و رضایت صاحب این گوشی نصب شده و یک نوتیفیکیشن دائمی وجود ردیابی را به او اطلاع می‌دهد."
+        android:textSize="13sp" />
+
     <Button
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="ذخیره تنظیمات" />
 
     <TextView
@@ -55,7 +63,7 @@
         android:layout_weight="1"
         android:gravity="bottom|center_horizontal"
         android:paddingBottom="16dp"
-        android:text="برنامه‌نویس: مجید دیده‌بان"
+        android:text="برنامه‌نویس: M:D"
         android:textSize="13sp"
         android:textColor="#999999" />
 
